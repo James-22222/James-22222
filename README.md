@@ -1,5 +1,5 @@
 # Pygame Dodger Game
-This is a simple arcade-style dodger game built using Python and Pygame. The player controls a green square to avoid two moving red enemy squares within a limited time. The game features a scoring system, a dynamic background colour based on the time left, a pause menu, and a game over screen.
+This is a simple arcade-style dodger game built using Python and Pygame. The player controls a green square to avoid two moving red enemy squares within a limited time. The game features a scoring system, a dynamic background colour change based on the time left, a pause menu, and a game over screen.
 
 # Features
 - Input prompt to enter the player's name.
@@ -8,9 +8,13 @@ This is a simple arcade-style dodger game built using Python and Pygame. The pla
 - Timer-based gameplay (60 seconds).
 - Score increse when touch an enemy.
 - Score tracking display on screen and increase by 2 on each hit.
-- Dynamic background color based on time remaining.
-- Pause functionality (Resume(R) / Restart(T) / Exit(Esc)).
-- Game over screen displaying score, nameand congratulatory message.
+- Dynamic background color change based on time remaining.
+- Pause functionality.
+  - `P` for pause
+  - `R` for resume
+  - `T` for restart
+  - `ESC` for quit
+- Game over screen displaying score, name and congratulatory message.
 
 # Requirements
 - Python 3.x
