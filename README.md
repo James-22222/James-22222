@@ -6,9 +6,9 @@ This is a simple arcade-style dodger game built using Python and Pygame. The pla
 - Player-controlled character using arrow keys.
 - Two enemies with different movement patterns(Enemy 1 vertically down and Enemy 2 horizontal across from left to right).
 - Timer-based gameplay (60 seconds).
-- Score increse when touch an enemy.
+- Score increase when touch an enemy.
 - Score tracking display on screen and increase by 2 on each hit.
-- Dynamic background color change based on time remaining.
+- Dynamic background colour change based on time remaining.
 - Pause functionality.
   - `P` for pause
   - `R` for resume
